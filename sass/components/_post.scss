@@ -216,6 +216,7 @@
         position: absolute;
         width: 100%;
         height: 100%;
+        background: var(--center-channel-bg);
 
         &.active {
             display: inline;
@@ -1826,6 +1827,10 @@
         .embed-link {
             display: none;
         }
+    }
+
+    .Menu .MenuItem {
+        background: var(--center-channel-bg);
     }
 }
 
